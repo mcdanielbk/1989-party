@@ -1,12 +1,43 @@
 :root {
   font: 16px / 1 sans-serif;
+  font: 16px / 1;
+  font-family: Georgia, serif;
 }
 
 html {
   height: 100%;
 }
-
 body {
-  margin: 0;
-  min-height: 100%;
+  min-height: 10%;
+  color: #0e0101;
+  background-color: greenyellow;
+  //background-image: url(/src/img/80-movies-.png);
+  text-align: center;
+}
+
+article {
+  margin-bottom: 8rem;
+  border-bottom: aquamarine gray 6px;
+  letter-spacing: 0.1rem;
+}
+h1 {
+  padding-bottom: 6rem;
+}
+img {
+  max-width: 400px;
+  max-height: 400px;
+  border: solid yellow 6px;
+  border-radius: 2%;
+}
+
+div {
+  margin: auto;
+  text-align: center;
+}
+
+.details :nth-child(3) {
+  max-width: 30%;
+  margin: auto;
+  text-align: justify;
+  padding-bottom: 5rem;
 }
